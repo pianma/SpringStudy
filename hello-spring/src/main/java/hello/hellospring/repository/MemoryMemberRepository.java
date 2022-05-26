@@ -8,6 +8,8 @@ public class MemoryMemberRepository implements  MemberRepository {
 
     //메모리라서 저장을 하기 위해 Map을 씀
     private  static Map<Long, Member> store = new HashMap<>();
+
+
     //시퀀스는 0,1,2 이렇게 키 값을 생성해 주는 놈
     private  static long sequence = 0L;
 
