@@ -22,7 +22,7 @@ public class JdbcMemberRepository implements MemberRepository   {
     public Member save(Member member) {
         String sql = "insert into member(name) values(?)";
 
-        
+
         return null;
     }
 
